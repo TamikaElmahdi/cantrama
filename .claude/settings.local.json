@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\\\laravel-projet\\\\cantrama\")",
+      "Bash(composer --version)",
+      "Bash(php --version)",
+      "Bash(npm --version)",
+      "Read(//c/laravel-projet/**)",
+      "Bash(composer create-project:*)",
+      "Bash(cp -r /c/laravel-projet/cantrama-new/. /c/laravel-projet/cantrama/)",
+      "Bash(rm -rf /c/laravel-projet/cantrama-new)",
+      "Bash(composer require:*)",
+      "Bash(php artisan:*)"
+    ]
+  }
+}
